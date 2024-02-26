@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 40px;
+    margin: 40px 0;
+    width: 740px;
+}
+
+.omelette-image{
+    width: 660px;
+    border-radius: 20px;
+}
+
+h1{
+    margin: 25px 0;
+}
+
+.description{
+    margin-bottom: 20px;
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.preparation h2{
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 15px;
+}
+
+.preparation li{
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 15px;
+}
+
+.preparation li:last-child{
+    margin-bottom: 0;
+}
+
+.preparation li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation span{
+    font-weight: 700;
+}
+
+.ingredients h2, .instructions h2, .nutrition h2{
+    color: hsl(14, 45%, 36%);
+    margin: 20px 0;
+}
+
+.ingredients ul, .instructions ol{
+    padding: 0 20px;
+}
+
+.ingredients li, .instructions li{
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 10px;
+}
+
+.ingredients li:last-child, .instructions li:last-child{
+    margin-bottom: 30px;
+}
+
+.ingredients li::marker, .instructions li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions span{
+    font-weight: 700;
+}
+
+.nutrition p{
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+}
+
+.nutrition .table ul{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid gray;
+}
+
+.nutrition .table li{
+    color: hsl(30, 10%, 34%);
+    margin: 10px 0;
+    width: 50px;
+}
+
+.nutrition .table li:last-child{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    margin-left: 50%;
+}
