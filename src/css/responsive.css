@@ -1,0 +1,44 @@
+@media(max-width:768px){
+    .card{
+        width: 650px;
+    }
+
+    .omelette-image{
+        width: 580px;
+    }
+}
+
+@media(max-width:425px){
+    .card{
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .omelette-image{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    h1{
+        font-size: 22px;
+        margin: 25px 30px;
+    }
+
+    .description{
+        margin: 0px 30px 20px;
+    }
+
+    .preparation h2{
+        font-size: 20px;
+    }
+
+    .preparation, .ingredients, .instructions, .nutrition{
+        margin: 0px 30px;
+    }
+
+    .nutrition{
+        margin-bottom: 30px;
+    }
+}
